@@ -1,0 +1,748 @@
+body {
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.box {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    cursor: pointer;
+    background: black;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 10px 25px black;
+
+}
+
+.box:hover {
+    border: 2px white solid;
+}
+
+.box:hover input {
+    width: 400px;
+    color: white;
+}
+
+.box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+
+
+
+/*scroll  bar */
+::-webkit-scrollbar {
+    width: 1vw;
+    height: 1vw;
+    border: 2px grey solid;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    background-image: linear-gradient(black, white);
+}
+
+::-webkit-scrollbar-track {
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+
+
+/* container fio awal page */
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("f.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* div tabiit l men w tahta l men l kelme maa l hover tabiita*/
+.menu {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 340px;
+    margin-top: -5px;
+}
+
+.men {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    position: relative;
+    margin-left: 50px;
+    top: 8px;
+}
+
+
+.menu:hover {
+    background-color: white;
+    box-shadow: 5px 5px 20px white;
+    cursor: pointer;
+    border: 4px solid white;
+
+
+}
+
+/* div tabaa l women maa l women wel hover tba3a */
+
+.menu1 {
+    border: 2px solid grey;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 900px;
+    margin-top: -60px;
+
+
+
+}
+
+.menu1:hover {
+    background-color: white;
+    box-shadow: 5px 5px 20px white;
+    cursor: pointer;
+    color: black;
+    border: 4px solid white;
+
+}
+
+.women {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    position: relative;
+    margin-left: 50px;
+    top: 8px;
+}
+
+.women:hover {
+    color: black;
+}
+
+/* kel chi customer care w news hole l kbset li foe */
+.customer {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.customer-care {
+    position: relative;
+    top: 600px;
+    width: 180px;
+    margin-left: 1200px;
+    font-size: 20px;
+}
+
+.customer-care:hover {
+    font-size: 22px;
+    background-image: linear-gradient(black, gold);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.new {
+    text-decoration: none;
+    color: white;
+}
+
+.new-arrivals {
+    position: relative;
+    top: -12px;
+    width: 180px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.new-arrivals:hover {
+    font-size: 22px;
+}
+
+.design {
+    text-decoration: none;
+    color: white;
+}
+
+.designers {
+    position: relative;
+    top: -36px;
+    width: 180px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+
+.designers:hover {
+    font-size: 22px;
+}
+
+.cloth {
+    text-decoration: none;
+    color: white;
+}
+
+.clothing {
+    position: relative;
+    top: -58px;
+    width: 180px;
+    margin-left: 225px;
+    font-size: 20px;
+}
+
+.clothing:hover {
+    font-size: 22px;
+}
+
+.shoe {
+    text-decoration: none;
+    color: white;
+}
+
+.shoes {
+    position: relative;
+    top: -80px;
+    width: 180px;
+    margin-left: 315px;
+    font-size: 20px;
+}
+
+.shoes:hover {
+    font-size: 22px;
+}
+
+.bag {
+    text-decoration: none;
+    color: white;
+
+}
+
+.bags {
+    position: relative;
+    top: -104px;
+    width: 180px;
+    margin-left: 378px;
+    font-size: 20px;
+}
+
+.bags:HOVER {
+    font-size: 22px;
+}
+
+.accessorie {
+    text-decoration: none;
+    color: white;
+}
+
+.accessories {
+    position: relative;
+    top: -127px;
+    width: 180px;
+    margin-left: 430px;
+    font-size: 20px;
+}
+
+.accessories:hover {
+    font-size: 22px;
+}
+
+.sale {
+    text-decoration: none;
+    color: white;
+}
+
+.sales {
+    position: relative;
+    top: -150px;
+    width: 180px;
+    margin-left: 545px;
+    font-size: 20px;
+}
+
+.sales:hover {
+    font-size: 22px;
+}
+
+.collabe {
+    text-decoration: none;
+    color: white;
+}
+
+.collaborations {
+    position: relative;
+    top: -174px;
+    width: 180px;
+    margin-left: 600px;
+    font-size: 20px;
+}
+
+.collaborations:hover {
+    font-size: 22px;
+}
+
+/* NEXT PAGE */
+.next-page {
+    height: 100vh;
+    width: 100%;
+    background: black;
+
+}
+
+/* new paragraph */
+
+.text {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: white;
+
+}
+
+.images {
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+
+}
+
+.spacing {
+    height: 20px;
+}
+
+.images-men {
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+
+
+/*page 3 */
+
+
+
+.page2 {
+    height: 550vh;
+    width: auto;
+    background: black;
+}
+
+.img {
+    display: flex;
+    max-height: 350px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+
+.img::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+    z-index: 2;
+}
+
+.img .item {
+    min-width: 400px;
+    max-width: 400px;
+    height: 350px;
+    line-height: 0;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.always {
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+.popular {
+    font-size: 50px;
+    color: white;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.img1 {
+    display: flex;
+    max-height: 350px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.img1::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+    z-index: 2;
+}
+
+.img1 .item1 {
+    min-width: 400px;
+    max-width: 400px;
+    height: 350px;
+    line-height: 0;
+    z-index: 1;
+
+}
+
+.spaceimage {
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 35%;
+    z-index: 1;
+}
+
+.clean {
+    font-size: 90px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.clean2 {
+    font-size: 90px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+}
+
+.line2 {
+    height: 5px;
+    background: white;
+    width: auto;
+    margin-top: -290px;
+}
+
+.men2 {
+    color: grey;
+    z-index: 3;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.a {
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    margin-left: 170px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.b {
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    margin-left: 200px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.c {
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    margin-left: 230px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.d {
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    margin-left: 230px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.e {
+    font-size: 30px;
+    color: white;
+    z-index: 3;
+    margin-left: 230px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.giftcards {
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.giftcards:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.promotions {
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.promotions:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.findastore {
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.findastore:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.become {
+    font-size: 20px;
+    color: grey;
+
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.become:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.nikejournal {
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.nikejournal:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.feedback {
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.feedback:hover {
+    font-size: 23px;
+    transition: 0.8s smooth;
+}
+
+.wara {
+    margin-top: -900px;
+    justify-content: space-around;
+}
+
+.line3 {
+    height: 2px;
+    background-color: grey;
+    width: auto;
+}
+
+.gethelp {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.gethelp:hover {
+    font-size: 27px;
+    transition: 0.2s smooth;
+}
+
+.plus {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 1400px;
+}
+
+.plus:hover {
+    font-size: 52px;
+    transition: 0.2s smooth;
+
+}
+
+.aboutnike {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.aboutnike:hover {
+    font-size: 27px;
+    transition: 0.2s smooth;
+}
+
+.plus1 {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 1400px;
+}
+
+.plus1:hover {
+    font-size: 52px;
+    transition: 0.2s smooth;
+
+}
+
+.fb {
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.insta {
+    margin-top: -58px;
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.youtube {
+    margin-top: -62px;
+    cursor: pointer;
+    margin-left: 330px;
+}
+
+.loc {
+    font-size: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.copyright {
+    color: grey;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.guide {
+    color: grey;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.guide:hover {
+    font-size: 22px;
+    transition: 0.2s smooth;
+}
+
+.termsofsale {
+    color: grey;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.termsofsale:hover {
+    font-size: 22px;
+    transition: 0.2s smooth;
+}
+
+.termsofuse {
+    color: grey;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.termsofuse:hover {
+    font-size: 22px;
+    transition: 0.2s smooth;
+}
+
+.nikeprivacy {
+    color: grey;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.nikeprivacy:hover {
+    font-size: 22px;
+    transition: 0.2s smooth;
+}
+
+.casupply {
+    color: grey;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.casupply:hover {
+    font-size: 22px;
+    transition: 0.2s smooth;
+}
+
+.nikeimg {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+
+@media all {
+    div {
+        width: auto;
+        height: auto;
+    }
+}
